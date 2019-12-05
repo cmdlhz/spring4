@@ -15,6 +15,12 @@
 		<level value="info" />
 	</logger>
 	
+	<!-- mybatis execution logs -->
+	<logger name="jbdc.sql" additivity="false">
+		<level value="debug" />
+		<appender-ref ref="console" />
+	</logger>
+	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
 		<level value="info" />
